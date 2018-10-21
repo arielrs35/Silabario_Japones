@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[600, 400]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-112,0,0,2,88"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButtonSalir">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Comic Sans MS" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Salir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonSalirActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="530" y="370" width="70" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonBack">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Comic Sans MS" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Volver al Men&#xfa;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonBackActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="400" y="370" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="10" width="580" height="350"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft YaHei" size="16" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Katakana&#xa;&#xa;El katakana (&#x7247;&#x4eee;&#x540d; o &#x30ab;&#x30bf;&#x30ab;&#x30ca;?) es uno de los dos silabarios empleados &#xa;en la escritura japonesa, junto con el hiragana. Su invenci&#xf3;n se atribuye &#xa;al monje K&#x16b;kai, o Kobo Daishi. Tambi&#xe9;n se suele usar el vocablo&#xa; katakana para referirse a cualquiera de los caracteres de dicho &#xa;silabario. Cuando se alude al conjunto de silabarios hiragana y katakana&#xa; se le conoce como kana. De los dos silabarios es el m&#xe1;s reciente.&#xa;&#xa;Sus caracteres no tienen valor conceptual alguno, sino &#xfa;nicamente &#xa;fon&#xe9;tico. Gr&#xe1;ficamente son de forma angulosa y geom&#xe9;trica.&#xa;&#xa;&#x30a2; a&#x9;&#x30a4; i&#x9;&#x30a6; u&#x9;&#x30a8; e&#x9;&#x30aa; o&#xa;&#x30ab; ka&#x9;&#x30ad; ki&#x9;&#x30af; ku&#x9;&#x30b1; ke&#x9;&#x30b3; ko&#xa;&#x30b5; sa&#x9;&#x30b7; shi&#x9;&#x30b9; su&#x9;&#x30bb; se&#x9;&#x30bd; so&#xa;&#x30bf; ta&#x9;&#x30c1; chi&#x9;&#x30c4; tsu&#x9;&#x30c6; te&#x9;&#x30c8; to&#xa;&#x30ca; na&#x9;&#x30cb; ni&#x9;&#x30cc; nu&#x9;&#x30cd; ne&#x9;&#x30ce; no&#xa;&#x30cf; ha&#x9;&#x30d2; hi&#x9;&#x30d5; fu&#x9;&#x30d8; he&#x9;&#x30db; ho&#xa;&#x30de; ma&#x9;&#x30df; mi&#x9;&#x30e0; mu&#x9;&#x30e1; me&#x9;&#x30e2; mo&#xa;&#x30e4; ya&#x9;&#x9;&#x30e6; yu&#x9;&#x9;&#x30e8; yo&#xa;&#x30e9; ra&#x9;&#x30ea; ri&#x9;&#x30eb; ru&#x9;&#x30ec; re&#x9;&#x30ed; ro&#xa;&#x30ef; wa&#x9;&#x30f0; wi&#x9;&#x9;&#x30f1; we&#x9;&#x30f2; wo&#xa;&#x9;&#x9;&#x9;&#x9;&#x30f3; n&#xa;&#x30ac; ga&#x9;&#x30ae; gi&#x9;&#x30b0; gu&#x9;&#x30b2; ge&#x9;&#x30b4; go&#xa;&#x30b6; za&#x9;&#x30b8; ji&#x9;&#x30ba; zu&#x9;&#x30bc; ze&#x9;&#x30be; zo&#xa;&#x30c0; da&#x9;&#x30c2; dji&#x9;&#x30c5; dzu&#x9;&#x30c7; de&#x9;&#x30c9; do&#xa;&#x30d0; ba&#x9;&#x30d3; bi&#x9;&#x30d6; bu&#x9;&#x30d9; be&#x9;&#x30dc; bo&#xa;&#x30d1; pa&#x9;&#x30d4; pi&#x9;&#x30d7; pu&#x9;&#x30da; pe&#x9;&#x30dd; po&#xa;&#xa;&#x30ad;&#x30e3; kya&#x9;&#x9;&#x30ad;&#x30e5; kyu&#x9;&#x9;&#x30ad;&#x30e7; kyo&#xa;&#x30b7;&#x30e3; sha&#x9;&#x9;&#x30b7;&#x30e5; shu&#x9;&#x9;&#x30b7;&#x30e7; sho&#xa;&#x30c1;&#x30e3; cha&#x9;&#x9;&#x30c1;&#x30e5; chu&#x9;&#x9;&#x30c1;&#x30e7; cho&#xa;&#x30cb;&#x30e3; nya&#x9;&#x9;&#x30cb;&#x30e5; nyu&#x9;&#x9;&#x30cb;&#x30e7; nyo&#xa;&#x30d2;&#x30e3; hya&#x9;&#x9;&#x30d2;&#x30e5; hyu&#x9;&#x9;&#x30d2;&#x30e7; hyo&#xa;&#x30df;&#x30e3; mya&#x9;&#x9;&#x30df;&#x30e5; myu&#x9;&#x9;&#x30df;&#x30e7; myo&#xa;&#x30ea;&#x30e3; rya&#x9;&#x9;&#x30ea;&#x30e5; ryu&#x9;&#x9;&#x30ea;&#x30e7; ryo&#xa;&#x30ae;&#x30e3; gya&#x9;&#x9;&#x30ae;&#x30e5; gyu&#x9;&#x9;&#x30ae;&#x30e7; gyo&#xa;&#x30b8;&#x30e3; ja&#x9;&#x9;&#x30b8;&#x30e5; ju&#x9;&#x9;&#x30b8;&#x30e7; jo&#xa;&#x30d3;&#x30e3; bya&#x9;&#x9;&#x30d3;&#x30e5; byu&#x9;&#x9;&#x30d3;&#x30e7; byo&#xa;&#x30d4;&#x30e3; pya&#x9;&#x9;&#x30d4;&#x30e5; pyu&#x9;&#x9;&#x30d4;&#x30e7; pyo&#xa;&#xa;Usos&#xa;&#xa;- Escritura de palabras tomadas de otros idiomas (principalmente del &#xa;  ingl&#xe9;s, en tiempos recientes) as&#xed; como en onomatopeyas.&#xa;&#xa;- Resaltar una palabra concreta. En este sentido equivale a nuestras &#xa;  comillas o a la escritura cursiva.&#xa;&#xa;-Nombres de animales en textos cient&#xed;ficos. En otros textos esos &#xa;mismos nombres se escriben en kanji o en hiragana.&#xa;&#xa;Realmente los dos silabarios son equivalentes, aunque los usos de cada &#xa;uno son distintos. En el alfabeto latino hay algo semejante en el uso de &#xa;may&#xfa;sculas y min&#xfa;sculas, en el sentido de que difieren las graf&#xed;as y los&#xa;usos.&#xa;&#xa;Ref. Wikipedia"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_allCodePost" type="java.lang.String" value="jTextArea1.setEditable(false);"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="30" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="33" red="0" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/ImgHiragana/5imgJapan.jpg"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="600" height="400"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>

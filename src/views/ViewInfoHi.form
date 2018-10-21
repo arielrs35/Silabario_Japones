@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-112,0,0,2,88"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButtonSalir">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Comic Sans MS" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Salir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonSalirActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="530" y="370" width="70" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonBack">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Comic Sans MS" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Volver al Men&#xfa;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonBackActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="400" y="370" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="10" width="580" height="350"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft YaHei" size="16" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Hiragana&#xa;&#xa;El hiragana (&#x5e73;&#x4eee;&#x540d; o &#x3072;&#x3089;&#x304c;&#x306a;?) es uno de los dos silabarios empleados &#xa;en la escritura japonesa; el otro se denomina katakana. Tambi&#xe9;n se &#xa;suele emplear hiragana para referirse a cualquiera de los caracteres &#xa;de dicho silabario. Proviene de la simplificaci&#xf3;n de caracteres m&#xe1;s &#xa;complejos de origen chino que llegaron antes del comienzo del &#xa;aislamiento cultural japon&#xe9;s, que se mantuvo inflexible hasta el final &#xa;de la era Edo. Se caracteriza por trazos curvos y simples.&#xa;&#xa;&#x3042;  a&#x9;&#x3044;  i&#x9;&#x3046;  u&#x9;&#x3048;  e&#x9;&#x304a;  o&#xa;&#x304b; ka&#x9;&#x304d; ki&#x9;&#x304f; ku&#x9;&#x3051; ke&#x9;&#x3053; ko&#xa;&#x3055; sa&#x9;&#x3057; shi&#x9;&#x3059; su&#x9;&#x305b; se&#x9;&#x305d; so&#xa;&#x305f; ta&#x9;&#x3061; chi&#x9;&#x3064; tsu&#x9;&#x3066; te&#x9;&#x3068; to&#xa;&#x306a; na&#x9;&#x306b; ni&#x9;&#x306c; nu&#x9;&#x306d; ne&#x9;&#x306e; no&#xa;&#x306f; ha/wa&#x9;&#x3072; hi&#x9;&#x3075; fu/hu&#x9;&#x3078; he/e&#x9;&#x307b; ho&#xa;&#x307e; ma&#x9;&#x307f; mi&#x9;&#x3080; mu&#x9;&#x3081; me&#x9;&#x3082; mo&#xa;&#x3084; ya&#x9;&#x9;&#x3086; yu&#x9;&#x9;&#x3088; yo&#xa;&#x3089; ra&#x9;&#x308a; ri&#x9;&#x308b; ru&#x9;&#x308c; re&#x9;&#x308d; ro&#xa;&#x308f; wa&#x9;&#x9;&#x9;&#x9;&#x3092; wo/o&#xa;&#x9;&#x9;&#x9;&#x9;&#x3093; n&#xa;&#xa;&#x304c; ga&#x9;&#x304e; gi&#x9;&#x3050; gu&#x9;&#x3052; ge&#x9;&#x3054; go&#xa;&#x3056; za&#x9;&#x3058; ji&#x9;&#x305a; zu&#x9;&#x305c; ze&#x9;&#x305e; zo&#xa;&#x3060; da&#x9;&#x3062; dji&#x9;&#x3065; dzu&#x9;&#x3067; de&#x9;&#x3069; do&#xa;&#x3070; ba&#x9;&#x3073; bi&#x9;&#x3076; bu&#x9;&#x3079; be&#x9;&#x307c; bo&#xa;&#x3071; pa&#x9;&#x3074; pi&#x9;&#x3077; pu&#x9;&#x307a; pe&#x9;&#x307d; po&#xa;&#xa;&#x304d;&#x3083; kya&#x9;&#x9;&#x304d;&#x3085; kyu&#x9;&#x9;&#x304d;&#x3087; kyo&#xa;&#x3057;&#x3083; sha&#x9;&#x9;&#x3057;&#x3085; shu&#x9;&#x9;&#x3057;&#x3087; sho&#xa;&#x3061;&#x3083; cha&#x9; &#x9;&#x3061;&#x3085; chu&#x9;&#x9;&#x3061;&#x3087; cho&#xa;&#x306b;&#x3083; nya&#x9;&#x9;&#x306b;&#x3085; nyu&#x9;&#x9;&#x306b;&#x3087; nyo&#xa;&#x3072;&#x3083; hya&#x9;&#x9;&#x3072;&#x3085; hyu&#x9;&#x9;&#x3072;&#x3087; hyo&#xa;&#x307f;&#x3083; mya&#x9;&#x9;&#x307f;&#x3085; myu&#x9;&#x9;&#x307f;&#x3087; myo&#xa;&#x308a;&#x3083; rya&#x9;&#x9;&#x308a;&#x3085; ryu&#x9;&#x9;&#x308a;&#x3087; ryo&#xa;&#x304e;&#x3083; gya&#x9;&#x9;&#x304e;&#x3085; gyu&#x9;&#x9;&#x304e;&#x3087; gyo&#xa;&#x3058;&#x3083; ja&#x9;&#x9;&#x3058;&#x3085; ju&#x9;&#x9;&#x3058;&#x3087; jo&#xa;&#x3073;&#x3083; bya&#x9;&#x9;&#x3073;&#x3085; byu&#x9;&#x9;&#x3073;&#x3087; byo&#xa;&#x3074;&#x3083; pya&#x9;&#x9;&#x3074;&#x3085; pyu&#x9;&#x9;&#x3074;&#x3087; pyo&#xa;&#xa;&#xa;Cuando se hace referencia a ambos silabarios en conjunto, hiragana y &#xa;katakana, se conocen como kana. Estos caracteres, al contrario que los &#xa;kanji, no tienen ning&#xfa;n valor conceptual, sino &#xfa;nicamente fon&#xe9;tico.&#xa;&#xa;Este silabario se emplea en la escritura de palabras japonesas, &#xa;part&#xed;culas y desinencias verbales; en contraste con el katakana que se &#xa;emplea para palabras extranjeras y onomatopeyas. Por ello, el hiragana &#xa;es el primer silabario que aprenden los ni&#xf1;os japoneses. A medida que &#xa;aprenden los kanji, los estudiantes van reemplazando los caracteres &#xa;sil&#xe1;bicos en favor de los caracteres chinos.&#xa;&#xa;Ref. Wikipedia."/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_allCodePost" type="java.lang.String" value="jTextArea1.setEditable(false);"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/ImgHiragana/5imgJapan.jpg"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="600" height="400"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
